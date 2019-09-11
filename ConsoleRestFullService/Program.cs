@@ -30,6 +30,7 @@ namespace ConsoleRestFullService
                 //_serviceHost.AddServiceEndpoint(typeof(IReserveInfoService), binding, "");
 
                 _serviceHost.Open();
+                Console.WriteLine("服务已启动");
                 Console.ReadKey();
                 _serviceHost.Close();
             }
