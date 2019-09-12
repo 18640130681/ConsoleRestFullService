@@ -33,6 +33,7 @@ namespace ConsoleRestFullService
 
                 _serviceHost.Open();
                 Console.WriteLine("服务已启动");
+
                 Console.ReadKey();
                 _serviceHost.Close();
             }
