@@ -8,6 +8,7 @@ using ConsoleRestFullService;
 
 namespace RestFull
 {
+
     [ServiceContract(Name = "RestFull.RestDemoService")]
     public interface IRestDemoService
     {
@@ -21,7 +22,7 @@ namespace RestFull
     }
 
     public static class Routing
-    {
+    { 
         public const string GetClientRoute = "GetData/{data}";
         public const string PostClientRoute = "/PostData";
     }
